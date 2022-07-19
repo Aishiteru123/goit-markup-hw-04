@@ -17,6 +17,7 @@ ul { list-style: none; padding-left: 0; margin: 0; }
 
 h1, h2, h3, h4, h5, h6, p { margin: 0; }
 
+
 header {
     display: flex;
     background-color: #FFFFFF;
@@ -39,6 +40,10 @@ header .container {
     align-items: center;
 }
 
+.icon:hover {
+    fill: #2196F3;
+}
+
 nav {
     display: flex;
 }
@@ -54,7 +59,23 @@ header ul {
 }
 
 .contact {
+    display: flex;
+    align-items: center;
     margin-left: auto;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+}
+
+header svg {
+    margin-right: 10px;
+}
+
+.svg:hover,
+.svg:focus {
+    color: #2196F3;
 }
 
 header .logo-link {
@@ -68,12 +89,76 @@ header .logo-link {
     margin: 0 auto;
 }
 
+.container-2 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.container-2 div {
+    flex-direction: column;
+    columns: 4;
+}
+
+.container-sect-1 {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sect-2 {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-left: 30px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sect-3 {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-left: 30px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sect-4 {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-left: 30px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-section-1 {
     display: flex;
     background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
-}
+
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(https://i.ibb.co/mz9Yhfp/bg-1-sect.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
+}   
 
 .main-section-1 h1 {
     text-align: center;
@@ -152,17 +237,15 @@ header .logo-link {
     margin-left: 30px;
 }
 
-.main-section-4 h3 {
-    margin: 0;
+.name-prof {
+    display: flex;
+    flex-direction: column;
+    columns: 2;
     text-align: center;
-    margin-top: -85px;
-}
+    align-items: center;
 
-.main-section-4 p {
-    margin: 0;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    margin-top: -145px;
+    margin-bottom: 90px;
 }
 
 .main-section-5 {
@@ -245,6 +328,25 @@ header .logo-link {
     width: 322px;
     padding-left: 24px;
 }
+
+.main-section-10 {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.main-section-10 h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+svg, rect, mask, circle{
+    margin: 0;
+    padding: 0;
+}
+
+.svg1 , .svg2 , .svg3 , .svg4 , .svg5 {
+
+} 
 
 footer {
     display: flex;
