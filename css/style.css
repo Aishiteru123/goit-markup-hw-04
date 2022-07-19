@@ -40,10 +40,6 @@ header .container {
     align-items: center;
 }
 
-.icon:hover {
-    fill: #2196F3;
-}
-
 nav {
     display: flex;
 }
@@ -64,18 +60,19 @@ header ul {
     margin-left: auto;
 }
 
+.contact-icon-1 {
+    width: 16px;
+    height: 12px;
+}
+
+.contact-icon-2 {
+    width: 10px;
+    height: 16px;
+}
+
 .contact a {
     display: flex;
     align-items: center;
-}
-
-header svg {
-    margin-right: 10px;
-}
-
-.svg:hover,
-.svg:focus {
-    color: #2196F3;
 }
 
 header .logo-link {
@@ -144,6 +141,11 @@ header .logo-link {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+
+.container2-svg {
+    width: 70px;
+    height: 70px;
 }
 
 .main-section-1 {
