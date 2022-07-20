@@ -60,6 +60,10 @@ header ul {
     margin-left: auto;
 }
 
+.contact svg {
+    margin-right: 10px;
+}
+
 .contact-icon-1 {
     width: 16px;
     height: 12px;
@@ -221,7 +225,7 @@ header .logo-link {
     display: flex;
     background-color: #F5F4FA;
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 124px;
 }
 
 .main-section-4 h2 {
@@ -247,7 +251,25 @@ header .logo-link {
     align-items: center;
 
     margin-top: -145px;
-    margin-bottom: 90px;
+    margin-bottom: 16px;
+}
+
+.command-icon {
+    width: 44px;
+    height: 44px;
+    margin-top: -145px;
+
+    cursor: pointer;
+}
+
+.svg9 {
+    margin-left: 32px;
+}
+
+
+
+.svg10 , .svg11 , .svg12 {
+    margin-left: 10px;
 }
 
 .main-section-5 {
@@ -341,14 +363,24 @@ header .logo-link {
     margin-bottom: 50px;
 }
 
-svg, rect, mask, circle{
-    margin: 0;
-    padding: 0;
+.client-section {
+    display: flex;
 }
 
-.svg1 , .svg2 , .svg3 , .svg4 , .svg5 {
 
-} 
+.clients {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+
+.svg1 , .svg2 , .svg3 , .svg4 , .svg5 {
+    margin-left: 30px;
+}
 
 footer {
     display: flex;
@@ -359,12 +391,51 @@ footer {
     font-family: Roboto;
 }
 
+.footer-info {
+    float: left;
+    display: block;
+}
+
 footer ul {
     margin-top: 20px;
 }
 
 .li12 , .li13 {
     margin-top: 9px;
+}
+
+footer h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-svg {
+    width: 44px;
+    height: 44px;
+
+    cursor: pointer;
+}
+
+.svg6 , .svg7 , .svg8 {
+    margin-left: 10px;
+}
+
+.footer-social-links {
+    display: block;
+    float: left;
+    margin-left: 70px;
+    padding-top: 12px;
+}
+
+.footer-social-links ul{
+    display: flex;
 }
 
 .logo-link {
