@@ -67,14 +67,20 @@ header ul {
 .contact-icon-1 {
     width: 16px;
     height: 12px;
+    fill: #757575;
 }
 
 .contact-icon-2 {
     width: 10px;
     height: 16px;
+    fill: #757575;
 }
 
-.contact-icon-1:hover {
+.link-inline2:hover .contact-icon-1 {
+    fill: #2196F3;
+}
+
+.link-inline2:hover .contact-icon-2 {
     fill: #2196F3;
 }
 
@@ -268,6 +274,14 @@ header .logo-link {
     margin-top: -145px;
 }
 
+.command-icon {
+    fill: #FFFFFF;
+}
+
+.command-icon:hover {
+    fill: #2196F3;
+}
+
 .svg9 {
     margin-left: 32px;
 }
@@ -375,7 +389,14 @@ header .logo-link {
 .clients {
     width: 170px;
     height: 92px;
+    fill: #AFB1B8;
     border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients:hover {
+    fill: #2196F3;
+    border: 1px solid #2196F3;
     border-radius: 4px;
 }
 
@@ -421,6 +442,14 @@ footer h3 {
 .footer-svg {
     width: 44px;
     height: 44px;
+}
+
+.footer-svg {
+    fill: rgba(255, 255, 255, 0.1);
+}
+
+.footer-svg:hover {
+    fill: #2196F3;
 }
 
 .svg6 , .svg7 , .svg8 {
