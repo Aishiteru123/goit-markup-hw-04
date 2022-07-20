@@ -74,6 +74,10 @@ header ul {
     height: 16px;
 }
 
+.contact-icon-1:hover {
+    fill: #2196F3;
+}
+
 .contact a {
     display: flex;
     align-items: center;
@@ -343,7 +347,7 @@ header .logo-link {
     padding-bottom: 94px;
 }
 
-.main-section-9 h3{
+.name-project {
     margin: 0;
     width: 353px;
     margin-top: -95px;
@@ -351,10 +355,8 @@ header .logo-link {
     padding-right: 0px;
 }
 
-.main-section-9 p {
-    margin: 0;
-    width: 322px;
-    padding-left: 24px;
+.name-project p {
+    margin-top: 4px;
 }
 
 .main-section-10 {
