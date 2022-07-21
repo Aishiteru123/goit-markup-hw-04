@@ -276,6 +276,10 @@ header .logo-link {
     fill: #FFFFFF;
 }
 
+.commad-icon-ul a .command-icon .in-fill {
+    fill: #afb1b8;
+}
+
 .commad-icon-ul a .command-icon:hover,
 .commad-icon-ul a .command-icon:focus {
     fill: #2196F3;
