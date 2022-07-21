@@ -297,8 +297,8 @@ header .logo-link {
     fill: #afb1b8;
 }
 
-.commad-icon-ul a .command-icon:hover,
-.commad-icon-ul a .command-icon:focus {
+.commad-icon-ul a:hover .command-icon,
+.commad-icon-ul a:focus .command-icon {
     fill: #FFFFFF;
 }
 
@@ -467,8 +467,8 @@ footer h3 {
     fill: rgba(255, 255, 255, 0.1);
 }
 
-footer a .footer-svg:hover ,
-footer a .footer-svg:focus {
+footer a:hover ,
+footer a:focus {
     fill: #2196F3;
 }
 
