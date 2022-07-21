@@ -248,6 +248,11 @@ header .logo-link {
     
 }
 
+.main-section-4 img {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .li9 , .li10 , .li11{
     margin-left: 30px;
 }
@@ -400,8 +405,8 @@ header .logo-link {
     display: flex;
 }
 
-
-.client-section a .clients {
+.client-section a {
+    display: flex;
     width: 170px;
     height: 92px;
     fill: #AFB1B8;
@@ -409,16 +414,16 @@ header .logo-link {
     border-radius: 4px;
 }
 
-.client-section a .clients:hover ,
-.client-section a .clients:focus {
+.client-section a:hover ,
+.client-section a:focus {
     fill: #2196F3;
     border: 1px solid #2196F3;
     border-radius: 4px;
 }
 
 
-.svg1 , .svg2 , .svg3 , .svg4 , .svg5 {
-    margin-left: 30px;
+.a8 , .a9 , .a10 , .a11 , .a12 {
+    margin-right: 30px;
 }
 
 footer {
@@ -455,12 +460,10 @@ footer h3 {
     margin-bottom: 20px;
 }
 
-footer a .footer-svg {
+.footer-social-links a {
+    display: flex;
     width: 44px;
     height: 44px;
-}
-
-.footer-svg {
     fill: rgba(255, 255, 255, 0.1);
 }
 
@@ -469,7 +472,7 @@ footer a .footer-svg:focus {
     fill: #2196F3;
 }
 
-.svg6 , .svg7 , .svg8 {
+.a15 , .a16 , .a17 {
     margin-left: 10px;
 }
 
